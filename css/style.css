@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color for the body */
+  body {
+    background-color: #d9d9d9;
+  }
+  
+  /* Top Navbar styles */
+  .navbar {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .navbar .logo img {
+    height: 70px;
+    width: 80px;
+    padding-bottom: 1px;
+    margin-left: 50px;
+  }
+  
+  /* Container and Row styles */
+  .container-fluid {
+    margin-top: 50px;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    background-color: #f8f9fa;
+    height: 100vh;
+    padding: 5px;
+  }
+  
+  .sidebar-sticky {
+    padding: 15px;
+  }
+  
+  .nav.flex-column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav-link i {
+    margin-right: 10px;
+  }
+  
+  /* Add more styles as needed for your specific content */
+
+  
